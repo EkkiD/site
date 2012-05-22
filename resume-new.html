@@ -7,7 +7,7 @@
         body{
             font-family: Helvetica, Arial, sans-serif;
         }
-        .main{
+        .main-window{
             width: 1024px;
             padding: 10px 10px;
             margin-left: auto;
@@ -20,12 +20,17 @@
             vertical-align: top;
             float:left;
         }
+        .clear{
+            clear:both;
+        }
         .contact{
             display: inline-block;
             vertical-align: top;
             float:right;
         }
         .section{
+            padding-top:18px;
+            padding-bottom:18px;
             border-bottom: 1px solid #000000;
         }
         a {
@@ -54,7 +59,9 @@
     </style>
   </head>
   <body>
+      <div class="main-window">
       <div class="main">
+          <div class="clear"></div>
           <div class="meta section">
               <div class="name">
                   <h1>Erick Dransch</h1>
@@ -66,9 +73,11 @@
                   <p><a href="https://www.github.com/EkkiD">www.github.com/EkkiD</a></p>
               </div>
           </div>
+          <div class="clear"></div>
           <div class="section">
-              more stuff
+              <p>more stuff</p>
           </div>
+      </div>
       </div>
   </body>
 </html>
